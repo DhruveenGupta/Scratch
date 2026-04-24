@@ -1,0 +1,20 @@
+# LunarPlugin Configuration
+
+essence:
+  # Min/max Lunar Essence dropped per kill
+  min-drop: 2
+  max-drop: 5
+
+  # How many Lunar Essence to make 1 Compacted Lunar Essence
+  compact-amount: 7
+
+lunar-mace:
+  ability:
+    # Duration of the night effect in seconds
+    night-duration: 20
+    # Duration of Jump Boost and Speed effects in seconds (matches night-duration)
+    effect-duration: 20
+    # Amplifier for Jump Boost and Speed (1 = level II, 0 = level I)
+    effect-amplifier: 1
+    # Cooldown in seconds
+    cooldown: 60

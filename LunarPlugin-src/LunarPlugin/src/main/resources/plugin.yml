@@ -1,0 +1,30 @@
+name: LunarPlugin
+version: ${project.version}
+main: com.lunar.plugin.LunarPlugin
+api-version: "1.21"
+description: Lunar Essence system with custom weapons
+
+commands:
+  lunar:
+    description: View your Lunar Essence balance
+    usage: /lunar
+    permission: lunar.balance
+  withdraw:
+    description: Withdraw Lunar Essence as a physical item
+    usage: /withdraw [amount]
+    permission: lunar.withdraw
+  compact:
+    description: Compact Lunar Essence into Compacted Lunar Essence
+    usage: /compact [amount]
+    permission: lunar.compact
+
+permissions:
+  lunar.balance:
+    description: Allows checking Lunar Essence balance
+    default: true
+  lunar.withdraw:
+    description: Allows withdrawing Lunar Essence
+    default: true
+  lunar.compact:
+    description: Allows compacting Lunar Essence
+    default: true
